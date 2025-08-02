@@ -6,7 +6,7 @@ services:
       HTTPS: ${HTTPS}
       FRONTEND_DOMAIN_NAME: ${https://netwealthinc4749.pinet.com}
       BACKEND_DOMAIN_NAME: ${https://netwealthinc4749.pinet.com}
-      DOMAIN_VALIDATION_KEY: ${https:/netwealthinc4749.pinet.com/7dc673a259e1b20ea6c14f31b6c2b5f39859c7c2a36d97e33bfe6804167bf3b34836a208866d196c843c32c817e86d8c7c655a7fbeb06d8192965b6518947c9b}
+      DOMAIN_VALIDATION_KEY: ${https:/netwealthinc4749.pinet.com/7dc673a259e1b20ea6c14f31b6c2b5f39859c7c2a36d97e33bfe6804167bf3b34836a208866d196c843c32c817e86d8c7c655a7fbeb06d8192965b6518947c9b.txt}
     ports:
       - "80:80"
       - "443:443"
