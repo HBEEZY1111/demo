@@ -4,9 +4,9 @@ services:
     build: ./reverse-proxy
     environment:
       HTTPS: ${HTTPS}
-      FRONTEND_DOMAIN_NAME: ${FRONTEND_DOMAIN_NAME}
-      BACKEND_DOMAIN_NAME: ${BACKEND_DOMAIN_NAME}
-      DOMAIN_VALIDATION_KEY: ${DOMAIN_VALIDATION_KEY}
+      FRONTEND_DOMAIN_NAME: ${https://netwealthinc4749.pinet.com}
+      BACKEND_DOMAIN_NAME: ${https://netwealthinc4749.pinet.com}
+      DOMAIN_VALIDATION_KEY: ${7dc673a259e1b20ea6c14f31b6c2b5f39859c7c2a36d97e33bfe6804167bf3b34836a208866d196c843c32c817e86d8c7c655a7fbeb06d8192965b6518947c9b}
     ports:
       - "80:80"
       - "443:443"
@@ -28,7 +28,7 @@ services:
     environment:
       NODE_ENV: ${ENVIRONMENT}
       SESSION_SECRET: ${SESSION_SECRET}
-      PI_API_KEY: ${PI_API_KEY}
+      PI_API_KEY: ${3kanollq4wk7zzoti4oim6e8vbsyuinpkcahgqtmt4n8bnckp6jg36mzb6ik2fxz  }
       PLATFORM_API_URL: ${PLATFORM_API_URL}
       MONGO_HOST: mongo
       MONGODB_DATABASE_NAME: ${MONGODB_DATABASE_NAME}
